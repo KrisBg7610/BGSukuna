@@ -1,0 +1,76 @@
+/* Reset styles (optional) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic container styles */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Main content section styles */
+.main-content {
+  /* Adjust display and flex properties based on your layout */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Image container styles */
+.image-container {
+  /* Set width and other styles as needed */
+  flex: 0 0 30%;
+  margin-right: 20px;
+}
+
+/* Text container styles */
+.text-container {
+  flex: 1 1 auto;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+
+/* Background image styles (using an example) */
+img[alt="Background image"] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+body {
+  /* ... other styles */
+  color: white;
+}
+h1 {
+  color: white;
+}
+
+.text-container p {
+  color: white;
+}
+
+#footer {
+  color: white;
+}
+.indented {
+  text-indent: 2em; /* Променя отстъпа */
+  margin-bottom: 0.5em;
+}
